@@ -81,7 +81,7 @@ const Contact = () => {
             value={formData.fullName}
             onChange={handleChange}
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+            className="w-full px-4 py-2 text-white border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
           />
           {formErrors.fullName && (
             <span className="text-red-500">{formErrors.fullName}</span>
@@ -98,7 +98,7 @@ const Contact = () => {
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+            className="w-full px-4 py-2 text-white border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
           />
           {formErrors.email && (
             <span className="text-red-500">{formErrors.email}</span>
@@ -115,7 +115,7 @@ const Contact = () => {
             value={formData.subject}
             onChange={handleChange}
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+            className="w-full px-4 py-2 text-white border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
           />
           {formErrors.subject && (
             <span className="text-red-500">{formErrors.subject}</span>
@@ -131,7 +131,7 @@ const Contact = () => {
             value={formData.body}
             onChange={handleChange}
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+            className="w-full px-4 py-2 text-white border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
           />
           {formErrors.body && (
             <span className="text-red-500">{formErrors.body}</span>
